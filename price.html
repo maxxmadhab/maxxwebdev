@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="css/study.css">
+    <style>
+        .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#text1 {
+    font-size: 40px; 
+    font-weight: 1000;
+    margin-left: 1rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.nav a {
+    font-weight: 300;
+    font-size: large; 
+    text-decoration: none;
+    color: rgb(49, 40, 40);
+}
+
+.nav p {
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.logo img {
+    margin-top: 1rem;
+    margin-left: 2rem; 
+    width: 50px;
+    height: 50px; 
+}
+
+.logo span {
+    margin-top: 2rem;
+    font-size: large; 
+}
+
+.contact {
+    margin-right: 2rem; 
+    margin-top: 1rem;
+    background-color: #0a2351;
+    padding: 0.5rem; 
+    border-radius: 0.3rem;
+}
+
+.contact button {
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #0a2351;
+    color: aliceblue;
+    padding: 0.8rem 1.5rem;
+    font-size: large; 
+}
+
+.contact a {
+    font-size: large;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+@media (min-width: 780px) {
+    .head {
+        justify-content: space-between;
+        padding: 1rem 5rem; 
+    }
+
+    #text1 {
+        font-size: 50px;
+        margin-left: rem;
+    }
+
+    .nav a {
+        font-size: x-large;
+    }
+
+    .logo img {
+        width: 50px; 
+        margin-left: 3rem;
+    }
+
+    .contact {
+        margin-right: 5rem;
+        margin-top: 2rem;
+    }
+
+    .contact button {
+        font-size: x-large;
+        padding: 1rem 2rem;
+    }
+
+    .contact a {
+        font-size: x-large;
+    }
+}
+        .pricing-container {
+            text-align: center;
+            margin: 5rem auto;
+            padding: 2rem;
+            max-width: 1200px;
+        }
+
+        #pricing-header {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .pricing-cards {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .pricing-card {
+            background-color: #ffd700;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: left;
+        }
+
+        .premium-card {
+            background-color: #ffd700;
+        }
+
+        .plan-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .plan-price {
+            font-size: 2.5rem;
+            color: #0a2351;
+            margin-bottom: 2rem;
+        }
+
+        .plan-features {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 2rem;
+        }
+
+        .plan-features li {
+            font-size: 1.1rem;
+            padding: 0.5rem 0;
+        }
+
+        .plan-button {
+            text-decoration: none;
+            background-color: #0a2351;
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+
+        .premium-card .plan-button {
+            background-color: #333;
+        }
+        .normal-card .plan-button{
+margin-top: 100px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- <div class="head">
+        <div class="logo">
+            <img src="studylogo.webp" alt="logo" width="50cm" height="50cm">
+            <span id="text1">Maxxstudy</span>
+        </div>
+        <div class="nav">
+            
+                <p><a href="studysync.html">Home</a></p>
+                <p><a href="featurespage.html">Features</a></p>
+                <p><a href="price.html">Pricing</a></p>
+                <p><a href="aboutpage.html">About</a></p>
+           
+        </div>
+        <div class="contact">
+            <button ><a href="mailto:madhabpadhi72@gmail.com">Contact us</a></button>
+        </div>
+    </div>
+    <div class="pricing-container">
+        <h1 id="pricing-header">Choose Your Plan</h1>
+        
+        <div class="pricing-cards">
+            
+            <div class="pricing-card normal-card">
+                <h2 class="plan-title">Free</h2>
+                <p class="plan-price">₹0/month</p>
+                <ul class="plan-features">
+                    <li>Access to basic course reviews</li>
+                    <li>Submit up to 3 reviews per month</li>
+                    <li>Basic community support</li>
+                </ul>
+                <a href="login.html" class="plan-button">Get Started</a>
+            </div>
+
+            
+            <div class="pricing-card premium-card">
+                <h2 class="plan-title">Premium</h2>
+                <p class="plan-price">₹200/month</p>
+                <ul class="plan-features">
+                    <li>Unlimited course reviews</li>
+                    <li>Priority review submissions</li>
+                    <li>Access to premium courses and ratings</li>
+                    <li>24/7 support and guidance</li>
+                    <li>Exclusive content and updates</li>
+                </ul>
+                <a href="login.html" class="plan-button">Upgrade Now</a>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="js/price.js"></script>
+
+    <div class="page5">
+        <footer>
+            <div class="leftfooter">
+                <div class="logo">
+                    <img src="images/studylogo.webp" alt="img" width="45cm" height="45cm">
+                 <p >Maxxstudy</p>
+
+                </div>
+                <p id="para5">Seamless learning for better future</p>
+                <div class="social">
+                    <a href="https://www.instagram.com/madhabpadhi_/"><img src="images/instagram.svg" alt=""></a>
+                    <a href="https://github.com/maxxmadhab/webdevcollege"><img src="images/github.svg" alt=""></a>
+                    <a href="https://x.com/home"><img src="images/twitter.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/"><img src="images/linkedin-copy.svg" alt=""></a>
+                </div>
+                
+            </div>
+
+            <div class="rightfooter">
+                <div class="row1">
+                    <h2>Products</h2>
+                 <div class="list">
+                    <p>Overview</p>
+                    <p>Solution</p>
+                    <p>Pricing</p>
+                    <p>Customer</p>
+                 </div>
+                </div>
+                <div class="row2">
+                    <h2>Company</h2>
+                 <div class="list">
+                    <p>About</p>
+                    <p>Job</p>
+                    <p>Press</p>
+                    <p>Blog</p>
+                    <p>Investor</p>
+                 </div>
+                </div>
+                <div class="row3">
+                    <h2>Support</h2>
+                 <div class="list">
+                    <p>Contact</p>
+                    <p>Documentation</p>
+                    <p>Chat</p>
+                    <p>FAQ</p>
+                 </div>
+                </div>
+
+                
+            </div>
+           
+        </footer>
+    </div>
+</footer>
+<div class="footer-copyright">
+    © 2021 - Present StudySync. All rights reserved.
+</div>
+
+</body>
+</html>

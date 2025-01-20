@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/study.css">
+    <script src="js/feature.js"></script>
+</head>
+<body>
+    <div class="head">
+        <div class="logo">
+            <img src="images/studylogo.webp" alt="logo" width="50cm" height="50cm">
+            <span id="text1">Maxxstudy</span>
+        </div>
+        <div class="nav">
+            
+                <p><a href="studysync.html">Home</a></p>
+                <p><a href="featurespage.html">Features</a></p>
+                <p><a href="price.html">Pricing</a></p>
+                <p><a href="aboutpage.html">About</a></p>
+           
+        </div>
+        <div class="contact">
+            <button ><a href="mailto:madhabpadhi72@gmail.com">Contact us</a></button>
+        </div>
+    </div>
+
+
+    <div id="reviewFormContainer">
+        <!-- Added 'onsubmit="return submitReview(event)"' to handle form submission with JavaScript -->
+        <form id="reviewForm" onsubmit="return submitReview(event)">
+            <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-field">
+                <label for="profilePic">Profile Picture</label>
+                <input type="file" id="profilePic" name="profilePic" accept="image/*" required>
+            </div>
+            <div class="form-field">
+                <label for="experience">Experience</label>
+                <textarea id="experience" name="experience" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+
+
+    <div class="achievement-counter">
+        <h2>Our Achievements</h2>
+        <div class="counter-container">
+            <!-- Added id="reviewCounter" to target this counter for updates -->
+            <div id="reviewCounter" class="counter" data-target="1500">0</div>
+            <p>Reviews</p>
+        </div>
+        <div class="counter-container">
+            <div class="counter" data-target="300">200</div>
+            <p>Courses</p>
+        </div>
+        <div class="counter-container">
+            <div class="counter" data-target="120">80</div>
+            <p>Instructors</p>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+    
+    <div class="page5">
+        <footer>
+            <div class="leftfooter">
+                <div class="logo">
+                    <img src="images/studylogo.webp" alt="img" width="45cm" height="45cm">
+                 <p >Maxxstudy</p>
+
+                </div>
+                <p id="para5">Seamless learning for better future</p>
+                <div class="social">
+                    <a href="https://www.instagram.com/madhabpadhi_/"><img src="images/instagram.svg" alt=""></a>
+                    <a href="https://github.com/maxxmadhab/webdevcollege"><img src="images/github.svg" alt=""></a>
+                    <a href="https://x.com/home"><img src="images/twitter.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/"><img src="images/linkedin-copy.svg"""></a>
+                </div>
+                
+            </div>
+
+            <div class="rightfooter">
+                <div class="row1">
+                    <h2>Products</h2>
+                 <div class="list">
+                    <p>Overview</p>
+                    <p>Solution</p>
+                    <p>Pricing</p>
+                    <p>Customer</p>
+                 </div>
+                </div>
+                <div class="row2">
+                    <h2>Company</h2>
+                 <div class="list">
+                    <p>About</p>
+                    <p>Job</p>
+                    <p>Press</p>
+                    <p>Blog</p>
+                    <p>Investor</p>
+                 </div>
+                </div>
+                <div class="row3">
+                    <h2>Support</h2>
+                 <div class="list">
+                    <p>Contact</p>
+                    <p>Documentation</p>
+                    <p>Chat</p>
+                    <p>FAQ</p>
+                 </div>
+                </div>
+
+                
+            </div>
+           
+        </footer>
+    </div>
+</footer>
+<div class="footer-copyright">
+    © 2021 - Present StudySync. All rights reserved.
+</div>
+
+
+    
+</body>
+</html>
